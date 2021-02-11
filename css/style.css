@@ -108,6 +108,10 @@ nav a, nav a:visited {
 .infotext:after {
     content:"\20AC";
 }
+/* presso UK: rubiamo sul cambio */
+/* .infotext:after {
+    content:"\00A3";
+} */
 .info:hover .infotext {
     visibility: visible;
 }
