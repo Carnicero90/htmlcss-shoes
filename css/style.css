@@ -53,8 +53,6 @@ nav a, nav a:visited {
 
 .product {
     text-transform: uppercase;
-    height: 50%; 
-    /* height qua non necessario in effetti, ma lo lascio perché un si sa mai */
     width: 50vh;
     position: absolute;
     top: 50%;
@@ -68,19 +66,21 @@ nav a, nav a:visited {
     font-size: 120%;
 }
 
-#green {
+/* id usati per poter reindirizzare all'interno della pagina dalla navbar (sennò avrei effettivamente usato una classe) */
+
+.green-class {
     background-color: green;
 }
 
-#yellow {
+.yellow-class {
     background-color: yellow;
 }
 
-#yellow h2 {
+.yellow-class h2 {
     color: green;
 }
 
-#red {
+.red-class {
     background-color: red;
 }
 
