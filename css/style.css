@@ -62,13 +62,6 @@ nav a, nav a:visited {
     text-align: center;
 }
 
-.product h2 {
-    font-size: 120%;
-    position: relative;
-}
-
-/* id usati per poter reindirizzare all'interno della pagina dalla navbar (sennò avrei effettivamente usato una classe) */
-
 .green-class {
     background-color: green;
 }
