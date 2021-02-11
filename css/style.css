@@ -5,18 +5,18 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 1em;
-    font-family: "Rubik mono one";
+    font-family: "Rubik mono one", Arial, sans-serif;
 }
 
 /* COMMON */
 
 img {
-    width: 100%
+    width: 100%;
 }
 
 /* END COMMON */
 
-/* HEADER */
+/* NAVBAR */
 
 nav {
     position: fixed;
@@ -26,13 +26,14 @@ nav {
 }
 
 nav ul li {
-    line-height: 4vh;
-    width: 4vh;
+    line-height: 2em;
+    width: 2em;
     text-align: center;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
-    /* text-decoration: none; */
+    list-style-type: none;
+    font-size: 80%;
 }
 
 nav a, nav a:visited {
@@ -40,7 +41,7 @@ nav a, nav a:visited {
     color: black;
 }
 
-/* END HEADER */
+/* END NAVBAR */
 
 /* MAIN */
 
@@ -51,13 +52,18 @@ nav a, nav a:visited {
 
 .product {
     text-transform: uppercase;
-    height: 50vh;
-    width: 50vh;
+    height: 50%;
+    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: yellow;
+    text-align: center;
+}
+
+.product h2 {
+    font-size: 120%;
 }
 
 #green {
