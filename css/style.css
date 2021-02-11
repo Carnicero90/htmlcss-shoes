@@ -88,7 +88,7 @@ nav a, nav a:visited {
 .info {
     position: relative;
     display: inline-block;
-    font-size: 150%;
+    font-size: 160%;
 }
 
 .infotext {
@@ -99,8 +99,10 @@ nav a, nav a:visited {
     padding: 2% 0;
     border-radius: 1em;
     position: absolute;
-    top: 50%;
-    right: -40%;
+    bottom: -100%;
+    left: 50%;
+    transform: translate(-50%, +50%);
+
 }
 
 .infotext:after {
