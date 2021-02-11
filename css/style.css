@@ -99,6 +99,8 @@ nav a, nav a:visited {
     padding: 2% 0;
     border-radius: 1em;
     position: absolute;
+    top: 50%;
+    right: -40%;
 }
 
 .infotext:after {
