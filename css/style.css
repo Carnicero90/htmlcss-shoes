@@ -64,6 +64,7 @@ nav a, nav a:visited {
 
 .product h2 {
     font-size: 120%;
+    position: relative;
 }
 
 /* id usati per poter reindirizzare all'interno della pagina dalla navbar (sennò avrei effettivamente usato una classe) */
@@ -76,12 +77,36 @@ nav a, nav a:visited {
     background-color: yellow;
 }
 
-.yellow-class h2 {
+.yellow-class .info {
     color: green;
 }
 
 .red-class {
     background-color: red;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+    font-size: 150%;
+}
+
+.infotext {
+    visibility: hidden;
+    width: 10em;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2% 0;
+    border-radius: 1em;
+    position: absolute;
+}
+
+.infotext:after {
+    content:"\20AC";
+}
+.info:hover .infotext {
+    visibility: visible;
 }
 
 /* END MAIN */
