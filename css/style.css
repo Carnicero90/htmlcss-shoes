@@ -37,9 +37,10 @@ nav ul li {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-nav a, nav a:visited {
+nav a {
     text-decoration: none;
     color: black;
+    scroll-behavior: smooth;
 }
 
 /* END NAVBAR */
@@ -93,7 +94,7 @@ nav a, nav a:visited {
     position: absolute;
     bottom: -100%;
     left: 50%;
-    transform: translate(-50%, +50%);
+    transform: translate(-50%, +40%);
 
 }
 
